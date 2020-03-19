@@ -1,69 +1,69 @@
 export const settings = {
-  columnCreatorText: 'Add new column',
-  cardCreatorText: 'Add new card',
+  columnCreatorText: "Add new column",
+  cardCreatorText: "Add new card",
   creator: {
-    buttonOK: 'OK',
-    buttonCancel: 'Cancel',
-    defaultText: 'Add new item',
+    buttonOK: "OK",
+    buttonCancel: "Cancel",
+    defaultText: "Add new item"
   },
-  defaultListDescription: '<p>I can do all the things!!!</p>',
-  defaultColumnIcon: 'list-alt',
+  defaultListDescription: "<p>I can do all the things!!!</p>",
+  defaultColumnIcon: "list-alt"
 };
 
 export const pageContents = {
-  title: 'The secret of happiess',
-  subtitle: 'A simple gratitude app, with lists, columns and cards',
+  title: "The secret of happiess",
+  subtitle: "What made you smile today?"
 };
 
 export const listData = {
-  title: 'What made you smile<sup>today?</sup>',
-  description: 'Simple things that make me happy',
-  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  title: "I am <sup>grateful</sup> for",
+  description: "Simple things that make me happy",
+  image: "http://uploads.kodilla.com/bootcamp/fer/11.react/space.png",
   columns: [
     {
       key: 0,
-      title: 'Books',
-      icon: 'book',
+      title: "Elusive moment",
+      icon: "book",
       cards: [
         {
           key: 0,
-          title: 'This Is Going to Hurt',
+          title: "Having an eye conact with a passing doggo"
         },
         {
           key: 1,
-          title: 'Interpreter of Maladies',
-        },
-      ],
+          title: "Meeting friend from highschool in the swimmingpool"
+        }
+      ]
     },
     {
       key: 1,
-      title: 'Movies',
-      icon: 'film',
+      title: "Appealing emotion",
+      icon: "film",
       cards: [
         {
           key: 0,
-          title: 'Harry Potter',
+          title: "Feeling of the weekend"
         },
         {
           key: 1,
-          title: 'Star Wars',
-        },
-      ],
+          title: "Chilly rain splitting into my arm"
+        }
+      ]
     },
     {
       key: 2,
-      title: 'People',
-      icon: 'gamepad',
+      title: "Beautiful soul",
+      icon: "gamepad",
       cards: [
         {
           key: 0,
-          title: 'The Witcher',
+          title: "My mum"
         },
         {
           key: 1,
-          title: 'Skyrim',
-        },
-      ],
-    },
-  ],
+          title: "and dad"
+        }
+      ]
+    }
+  ]
 };
