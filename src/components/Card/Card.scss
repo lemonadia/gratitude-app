@@ -2,10 +2,13 @@
 
 .component {
   position: relative;
-  background: $color-dark;
+  background-color: transparent;
   border: 1px solid lighten($color-dark, 60%);
   padding: $base-size;
   margin: 0 0 $base-size 0;
   border-radius: $radius;
   color: #1b4693;
+  h3 {
+    color: $color-dark;
+  }
 }
