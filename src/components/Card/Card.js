@@ -8,10 +8,11 @@ class Card extends React.Component {
     cards: PropTypes.array,
   };
   render() {
+    const { title, cards } = this.props;
     return (
       <section className={styles.component}>
-        {this.props.cards}
-        <h3>{this.props.title}</h3>
+        {cards}
+        <h3>{title}</h3>
       </section>
     );
   }
