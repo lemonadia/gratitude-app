@@ -11,7 +11,6 @@ const mapDispatchToProps = (dispatch, props) => ({
   addCard: title =>
     dispatch(
       createAction_addCard({
-        // payload
         columnId: props.id,
         title,
       })

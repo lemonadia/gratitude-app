@@ -13,7 +13,7 @@ class Column extends React.Component {
   };
 
   render() {
-    const { title, cards, addCard } = this.props;
+    const { title, addCard, cards } = this.props;
 
     return (
       <section className={styles.component}>
