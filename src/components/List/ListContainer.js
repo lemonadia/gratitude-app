@@ -11,6 +11,7 @@ const mapDispatchToProps = (dispatch, props) => ({
   addColumn: title =>
     dispatch(
       createAction_addColumn({
+        // payload
         listId: props.id,
         title,
       })
