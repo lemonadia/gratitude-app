@@ -8,6 +8,9 @@ export const settings = {
   },
   defaultListDescription: "<p>I can do all the things!!!</p>",
   defaultColumnIcon: "list-alt",
+  search: {
+    defaultText: "Find your card!",
+  },
 };
 
 export const pageContents = {
@@ -79,25 +82,21 @@ const columns = [
     id: "column-1",
     listId: "list-1",
     title: "Elusive moment",
-
   },
   {
     id: "column-2",
     listId: "list-1",
     title: "Appealing emotion",
-  
   },
   {
     id: "column-3",
     listId: "list-1",
     title: "Beautiful soul",
-
   },
   {
     id: "column-4",
     listId: "list-2",
     title: "Strange column",
-
   },
 ];
 

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Search.scss";
 import Button from "../Button/Button";
 import PropTypes from "prop-types";
+import { settings } from "../../data/dataStore";
 
 class Search extends React.Component {
   static propTypes = {
@@ -12,9 +13,9 @@ class Search extends React.Component {
     countAll: PropTypes.number,
   };
 
-  // static defaultProps = {
-  //   text: settings.search.defaultText
-  // };
+  static defaultProps = {
+    text: settings.search.defaultText,
+  };
 
   state = {
     value: this.props.searchString,
