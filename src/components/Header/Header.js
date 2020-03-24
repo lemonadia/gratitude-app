@@ -11,11 +11,14 @@ class Header extends React.Component {
           <div className={styles.wrapper}>
             <Link className={styles.logo} to="/" />
             <nav>
-              <NavLink exact to="/">
+              <NavLink exact to="/" activeClassName="active">
                 Home
               </NavLink>
-              <NavLink exact to="/info">
+              <NavLink exact to="/info" activeClassName="active">
                 Info
+              </NavLink>
+              <NavLink exact to="/faq" activeClassName="active">
+                faq
               </NavLink>
             </nav>
           </div>

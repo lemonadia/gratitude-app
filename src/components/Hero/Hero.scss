@@ -1,0 +1,23 @@
+@import "../../styles/settings.scss";
+
+.component {
+  position: relative;
+  min-height: ($base-size * 15);
+  background: transparent;
+  margin: ($base-size * 2) 0;
+  overflow: hidden;
+  border-radius: $radius;
+}
+
+.title {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  font-size: ($base-size * 2.5);
+  text-transform: uppercase;
+  color: #1b4693;
+  transform: translate(-50%, -50%);
+  padding: $base-size;
+  border-radius: $radius;
+}
