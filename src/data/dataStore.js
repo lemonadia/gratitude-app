@@ -23,6 +23,9 @@ export const infoContents = {
   content:
     "An antidote against dissatisfaction so to speak: Gratitude. Research shows that adopting an attitude of gratitude, simply expressing appreciation and being thankful, can measurably improve your overall well-being. It can increase happiness, reduce depression. Feeling dissatisfied with your job, relations escalates in the times of social media and comparing to each other. How we can counteract these impulses?<br> By writing down moments, emotions, situation that you can be grateful for, you can practice this posture and be happy! ",
 };
+export const faqContents = {
+  title: "Frequently Asked Questions",
+};
 
 export const listData = {
   title: "I am <sup>grateful</sup> for",
