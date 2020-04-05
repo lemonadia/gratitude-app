@@ -1,0 +1,10 @@
+@import "../../styles/settings.scss";
+
+.component {
+  width: 50%;
+  height: 400px;
+
+  h3 {
+    color: $color-main;
+  }
+}

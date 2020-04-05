@@ -82,7 +82,31 @@ export const listData = {
 const lists = [
   {
     id: "list-1",
-    title: "Things to do <sup>soon!</sup>",
+    title: "Mon<sup>day</sup>",
+  },
+  {
+    id: "list-2",
+    title: "Tues <sup>day</sup>",
+  },
+  {
+    id: "list-3",
+    title: "Wednes<sup>day</sup>",
+  },
+  {
+    id: "list-4",
+    title: "Thurs <sup>day</sup>",
+  },
+  {
+    id: "list-5",
+    title: "Fri <sup>day</sup>",
+  },
+  {
+    id: "list-6",
+    title: "Satur <sup>day</sup>",
+  },
+  {
+    id: "list-7",
+    title: "Sun <sup>day</sup>",
   },
 ];
 

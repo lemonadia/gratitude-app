@@ -2,15 +2,16 @@ import React from "react";
 import styles from "./Search.scss";
 import Button from "../Button/Button";
 import PropTypes from "prop-types";
+import { withRouter } from "react-router";
 import { settings } from "../../data/dataStore";
 
 class Search extends React.Component {
   static propTypes = {
     text: PropTypes.string,
     searchString: PropTypes.string,
-    changeSearchString: PropTypes.func,
     countVisible: PropTypes.number,
     countAll: PropTypes.number,
+    history: PropTypes.node,
   };
 
   static defaultProps = {
@@ -29,7 +30,7 @@ class Search extends React.Component {
   }
 
   handleOK() {
-    this.props.changeSearchString(this.state.value);
+    this.props.history.push(`/search/${this.state.value}`);
   }
 
   componentDidUpdate(prevProps) {
@@ -43,7 +44,7 @@ class Search extends React.Component {
     const { value } = this.state;
     return (
       <div className={styles.component}>
-        <input type="text" placeholder={text} value={value} onChange={event => this.handleChange(event)} />
+        <input type="text" placeholder={text} value={value} onChange={(event) => this.handleChange(event)} />
         <div className={styles.buttons}>
           <Button onClick={() => this.handleOK()}></Button>
         </div>
@@ -53,4 +54,4 @@ class Search extends React.Component {
   }
 }
 
-export default Search;
+export default withRouter(Search);
