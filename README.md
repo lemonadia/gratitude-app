@@ -1,7 +1,10 @@
 
-React gratitude app - the project I made during Kodilla course. The idea was to create columns depending on the category of gratefulness. The cards illustrate concepts that fit the title of the column.
+React gratitude app - the project I made during Kodilla course. 
+The idea was to create columns divided into days of the week. 
+The cards illustrate concepts that fit the title of the column.
+There is also functionality to filter each column and the results display at the separate view. 
 
-**In progress**
+
 
 
 <a href="https://gratitude-application.herokuapp.com/"><img src="https://i.ibb.co/mz1ms0g/app.png" title="gratitude-application" alt="gratitude-application"></a>
