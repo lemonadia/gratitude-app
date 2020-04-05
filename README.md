@@ -4,7 +4,7 @@ React gratitude app - the project I made during Kodilla course. The idea was to 
 **In progress**
 
 
-<a href="https://gratitude-application.herokuapp.com/"><img src="src/img/app.png" title="gratitude-application" alt="gratitude-application"></a>
+<a href="https://gratitude-application.herokuapp.com/"><img src="/src/img/app.png" title="gratitude-application" alt="gratitude-application"></a>
 
 
 
